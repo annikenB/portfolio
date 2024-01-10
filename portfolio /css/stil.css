@@ -1,0 +1,487 @@
+@media(min-width: 450px) {
+
+    body{max-width: 1200px;
+        margin: auto;}
+        
+
+body {
+    background-color:#DCDDE5; 
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 30px;
+    overflow-x: hidden;   
+} 
+
+h1{
+    color:#101FD8;   
+    font-size: 90px;
+    font-family: league ;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 40px; 
+      padding:0px;
+      width: 100%;
+    }
+   
+    .wireframe{
+        display:none;
+    }
+
+    #fotoo{
+        display: block;
+    }
+
+
+    #grid1_1 {
+        display: block;
+    }
+    
+    .p{
+        font-size: 0.8em;
+    }
+
+  }
+
+h2{
+    color:#101FD8;   
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+   
+}
+
+h3{
+    color:#101FD8;   
+    font-size: 30px;
+    margin: 30px;
+    font-family:got;
+}
+
+h4{
+    color: #DCDDE5;
+    font-size: 20px; 
+    margin: 20px; 
+}
+
+
+h5{
+    
+    color:#101FD8;     
+    font-size: 20px; 
+    margin: 20px;
+} 
+
+h6{
+    color: #8387CC;
+    font-size: 20px;  
+    margin: 20px;
+}
+
+a{
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 1px;
+    color: #101FD8;
+    text-decoration: none; 
+    font-family:new;
+}
+
+p{
+    font-size: 22px;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+#web{
+    display: block;
+    padding-top: 60px;
+    margin-top: 80px;
+}
+
+#animasjon {
+    display: block;
+    padding-top: 60px;
+    margin-top: 80px;
+
+}
+
+#ux{
+    padding-left:50px ;
+}
+
+#fotoo{
+    text-align: center;
+    min-width:  250px;
+}
+
+#fotooo{
+    text-align: center;
+    min-width:  250px;
+    
+}
+
+#overskrift {
+    padding-top: 0;
+    margin: 20px;
+}
+
+#kolonne1{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#logo {
+    background-image: url(/img/logo1.png);
+    aspect-ratio: 1/1;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding-top: 60px;
+    margin-top: 25px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#instagram_logo1 {
+    background-image: url(/img/insta.png);
+    aspect-ratio: 1/1;
+    background-size:20px;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 250px;
+    justify-content: flex-end;
+}
+
+#linkedin_logo1 {
+    background-image: url(/img/linkedin.png);
+    aspect-ratio: 1/1;
+    background-size:20px;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+
+
+#nav_standard {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+
+#nav_stand {
+    display: flex;
+    padding: 2px;
+    color:#101FD8;   
+    font-size: 40px;
+    text-decoration: none;
+
+  }
+
+  #nav_standmeny{
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 45px;
+    margin-left: 500px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 30px;
+  }
+  
+
+  footer {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+ }
+
+ .blue {
+    background-color:#101FD8;
+ }
+
+ .hvit {
+    background-color:#DCDDE5;
+ }
+
+ .bukett {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+ }
+
+ .blomstforside {
+    background-size: cover;
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 90px;
+    margin-left: 280px;
+ }
+
+
+.pic2{
+    width:100%;
+    margin-left: 9%;
+    margin-top: 1px;
+    max-width: 800px;
+    min-width: 300px;
+
+}
+
+.pic3{
+    width: 100%;
+    margin-left: 3px;
+    margin-top: 30px;
+
+
+}
+
+.pic4{
+    width: 100%;
+    margin-left: 3px;
+    margin-top: 30px;
+
+}
+.wireframe{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-width: 250px;
+    max-width:  650px;
+
+}
+.foto1{
+    width: 800px;
+    margin-left: 10px;
+    margin-top: 5%;
+
+}
+.foto{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 5px;
+  
+}
+
+.pic8 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-width:  150px;
+}
+
+.pic10 {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-width: 0px; 
+}
+
+
+.pic9 {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-width:  250px; 
+    max-width:  650px;
+}
+
+.img{
+    display: block;
+}
+
+.foto3{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 5%;
+
+}
+.pic10 {
+    width: 800px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.brukertyper {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-width:  250px;
+    max-width:  550px;
+}
+
+#link {
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#link2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+} 
+#link1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 55px;
+    border: 20px;
+}
+
+#ommeg{
+    font-size:30px ;
+    margin-left: 40px; 
+}
+
+#prosjekter{
+    font-size:30px ;
+    margin-left: 40px; 
+}
+
+#porto{
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+}
+
+#footertext {
+   color:  #DCDDE5;
+}
+#undertekst{
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: league;
+    src: url(/fonts/LeagueSpartan-VariableFont_wght.woff2);
+}
+
+@font-face {
+    font-family: new;
+    src: url(/fonts/PTSerif-Bold.woff2);
+}
+
+
+@font-face {
+    font-family: got;
+    src: url(/fonts/PathwayGothicOne-Regular.woff2);
+}
+
+
+
+
+.menu {
+    list-style: none;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 45px;
+    margin-left: 500px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color:#101FD8;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color:#8387CC;
+}
+
+button {
+    color:#101FD8;
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 400px;
+    padding:20px;
+}
+header nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+
+.menu {
+    display: none;
+}
+
+
+button[aria-expanded="true"]+.menu {
+    display: flex;
+    
+}
+
+
+@media screen and (min-width: 769px) {
+    .menu {
+        display: flex;
+    }
+
+    button {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+        width: 10em;
+        position: absolute;
+        justify-content: flex-end;
+        top: 40px;
+        right: 0;
+        z-index: 3;
+       
+    }
+
+    
+    .menu li {
+        margin: 0;
+        padding: 3px 10px; 
+        border: #101FD8;
+        background-color:#8387CC;
+        color:#101FD8;
+    }
+    .menu a {
+        text-decoration: none;
+        color:#101FD8;
+        font-size: 15px;
+    }
+}
+

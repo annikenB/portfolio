@@ -1,0 +1,145 @@
+body {
+    background-color:#101FD8; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  
+} 
+
+h1{
+    color:#DCDDE5;   
+      font-size: 75px;
+      font-family:"league" ;
+      margin: 20px;
+      padding:20px;
+  
+}
+
+h2{
+    color:#DCDDE5;   
+    font-size: 40px;
+   
+}
+p{
+    font-size: 19px;
+    color:#DCDDE5;   
+}
+
+h4{
+    color:#DCDDE5;     
+    font-size: 23px;
+}
+
+
+a {
+    color:#DCDDE5;  
+    text-decoration: none; 
+      font-size: 20px;
+      padding: 15px;
+      padding-top: 1px;
+      font-family:"league";
+  
+}
+
+h5{
+    color:#DCDDE5;   
+    font-size: 29px;  
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+ }
+
+ .hvit {
+    background-color:#DCDDE5;
+ }
+
+ #grid1_12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    color:#8387CC
+ }
+
+ .bildeundercv{
+    margin-left: 150px;
+    padding-right: 40px;
+ }
+
+ #grid1_1_1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    margin: 20px;
+ }
+
+ #grid1_11 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+ }
+ 
+ #nav_standmeny{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    color: #DCDDE5;
+    margin-top: 45px;
+    margin-left: 500px;
+  }
+
+p {
+    margin: 20px;
+}
+
+ .pic1{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%; 
+}
+.pic2{
+
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+ 
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 30px;
+  }
+
+  #logo {
+    background-image: url(/img/\ negativlogo.png);
+    aspect-ratio: 1/1;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding-top: 60px;
+    margin-top: 25px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+
+  #cv1{
+    padding:50px;
+  }
+  #cv2{
+    padding:50px;
+  }
+
+  @font-face {
+    font-family: "league";
+    src: url(..fonts/LeagueSpartan-VariableFont_wght.woff2);
+}
